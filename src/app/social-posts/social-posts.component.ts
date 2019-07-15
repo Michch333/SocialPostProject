@@ -41,7 +41,7 @@ export class SocialPostsComponent implements OnInit {
   }
 
   onSubmit(event) {
-    this.posts.push(event);
+    this.posts.splice(0,0,event);
     console.log(`Adding ${event.content} worked!`)
     console.log(this.posts);
   }

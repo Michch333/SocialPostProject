@@ -11,8 +11,8 @@ export class PostComponent implements OnInit {
 
   constructor() { }
 
-  removePost(){
-    alert("I couldnt figure out how to remove the correct index when the array is displayed in reverse - so this button does nothing.")
+  removePost(i){
+    this.posts.splice(i,1);
   }
 
   ngOnInit() {
