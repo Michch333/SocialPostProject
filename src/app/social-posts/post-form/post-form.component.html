@@ -1,0 +1,17 @@
+<div class="container">
+    <h2 class="titleHeader">
+        Title
+    </h2>
+    <input class="titleInput" type="text" placeholder="" [(ngModel)]="title">
+
+    <h2 class="thoughtHeader">
+        Thought
+    </h2>
+
+    <div class="inputContainer">
+        <input class="thoughtInput" type="text" [(ngModel)]="thought" (keyup.enter)="createNewPost(title, thought)">
+    </div>
+    <div class="btnContainer">
+        <button type="button" class="addPostBtn" (click)="createNewPost(title, thought)">Add Post</button>
+    </div>
+</div>

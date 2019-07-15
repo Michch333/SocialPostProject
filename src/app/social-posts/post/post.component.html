@@ -1,0 +1,12 @@
+
+<div class="postContainerStyle">
+    <div *ngFor="let post of posts.slice().reverse(); index as i">
+        <h1 class="userStyle">
+            {{ post.user }}
+        </h1>
+        <h3 class="contentStyle">
+            {{ post.content }}
+            <button type="button" class="deleteBtn" (click) = "removePost(test)">X</button>
+        </h3>
+    </div>
+</div>

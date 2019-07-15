@@ -1,0 +1,20 @@
+.titlePage {
+    text-align: center;
+    color: lightblue;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.buttonContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px
+}
+
+.newThought {
+    background: none;
+    color: inherit;
+    border: none;
+    font-size: 15px;
+}

@@ -1,0 +1,23 @@
+.contentStyle {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.userStyle {
+    font-style: italic;
+}
+
+.postContainerStyle {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.deleteBtn {
+    background: none;
+    border: none;
+    float: right;
+    font-size: 20px;
+}

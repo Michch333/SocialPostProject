@@ -1,0 +1,39 @@
+
+
+.container {
+    border: 1px solid blue;
+    background-color: aqua;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.titleHeader, .thoughtHeader {
+    font-size: 20px;
+}
+
+.titleInput {
+    width: 90%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.thoughtInput {
+    width: 90%;
+    height: 150px;
+    padding-left: 10px;
+}
+
+/* .btnContainer {
+    text-align: center;
+} */
+
+.addPostBtn {
+    width: 93%;
+    height: 40px;
+    background: none;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}

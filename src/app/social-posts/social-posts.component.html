@@ -1,0 +1,11 @@
+<h1 class="titlePage">My Thoughts</h1>
+<div class="buttonContainer">
+    <button type="button" class="newThought" (click) = "toggleDisplay()">New Thought</button>
+</div>
+
+<div class="postFormContainer" *ngIf = "displayForm === true">
+    <app-post-form [displayForm] = "displayForm" (submitted) = "onSubmit($event)"></app-post-form>
+</div>
+
+
+<app-post [posts] = "posts"></app-post>
